@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>FriendZone</title>
+</head>
+<body>
+    <header>
+        <img src="Images/a25c198273a072fc9a608ee01a3bff80.png" class="logo">
+        <h1>FriendZone</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Messages</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Friend Requests</a>
+                    <div class="dropdown-content">
+                        <a href="#" data-username="Martin Johnson" data-profile-pic="user1-profile-pic.png">
+                            <img src="Images/download (1).png" alt="Martin Johnson" class="user-pic">Martin Johnson
+                            <button class="accept">Accept</button> <button class="decline">Decline</button>
+                        </a>
+                        <a href="#" data-username="Sarah Walsh" data-profile-pic="user2-profile-pic.png">
+                            <img src="Images/download.png" alt="Sarah Walsh" class="user-pic">Sarah Walsh
+                            <button class="accept">Accept</button> <button class="decline">Decline</button>
+                        </a>
+                        <a href="#" data-username="Jack Thomas" data-profile-pic="user3-profile-pic.png">
+                            <img src="Images/download (1).png" alt="Jack Thomas" class="user-pic">Jack Thomas
+                            <button class="accept">Accept</button> <button class="decline">Decline</button>
+                        </a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">More</a>
+                    <div class="dropdown-content">
+                        <a href="logout.html">Logout</a> <!-- Link to the logout page -->
+                    </div>
+                </li>
+            </ul>
+    
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="box" id="posts">
+            <div class="box-title">My Posts</div>
+        </div>
+        <div class="box2">
+            <div class="box-title2">Friends List</div>
+        </div>
+        <div class="box">
+            <div class="box-title">About</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis mauris quis nunc malesuada congue. Proin commodo, justo et lacinia volutpat, tortor massa efficitur elit, non consequat quam felis nec lorem. Quisque hendrerit, sapien vitae imperdiet placerat, massa ligula elementum turpis, at suscipit dui tortor at ex. Aenean nec nulla nec orci gravida eleifend id eu sem. Vivamus rhoncus enim eu urna pellentesque, in luctus leo viverra.</p>
+            <p>Nullam et nisl vel nisi vulputate fermentum. Cras maximus aliquam purus, vel finibus lorem elementum vel. Sed non eros non libero consequat iaculis vel ut metus. Curabitur nec mi quis mi eleifend feugiat. Duis in purus elit. Vivamus mollis lobortis risus a tincidunt. Integer in neque eu felis tincidunt scelerisque ut ac ex.</p>
+        </div>
+        <div class="box">
+            <div class="user-info">
+                <img src="Images/download (1).png" alt="Profile Picture" class="profile-pic">
+                <span class="username">Lucas Keats</span>
+            </div>
+            <form id="postForm">
+                <label for="postContent">Make a Post:</label>
+                <textarea id="postContent" name="postContent"></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>FriendZone © 2024</p>
+        <div class="sponsors">
+            <img src="Images/kisspng-coca-cola-logo-font-fizzy-drinks-5ba9f84a2b7bb1.6551430115378658021781.jpg" alt="Sponsor 1">
+            <img src="Images/McDonald's_Golden_Arches.svg.png" alt="Sponsor 2">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
